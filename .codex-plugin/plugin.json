@@ -1,0 +1,37 @@
+{
+  "name": "skill-selector",
+  "version": "0.1.0",
+  "description": "Finds the right skill among hundreds: indexes every installed skill, suggests the best match for each task, loads only that one.",
+  "author": {
+    "name": "Batu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "routing",
+    "search",
+    "context"
+  ],
+  "hooks": "./hooks/claude-codex-hooks.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill Selector",
+    "shortDescription": "Finds the right skill among hundreds",
+    "longDescription": "Finds the right skill among hundreds: indexes every installed skill, suggests the best match for each task, loads only that one.",
+    "developerName": "Batu",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions",
+      "Lifecycle hooks"
+    ],
+    "defaultPrompt": [
+      "Find the right skill for this task.",
+      "Which installed skill fits this?"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "websiteURL": "https://github.com/buyuksahinbatu/skill-selector"
+  },
+  "homepage": "https://github.com/buyuksahinbatu/skill-selector",
+  "repository": "https://github.com/buyuksahinbatu/skill-selector"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "skill-selector",
+  "version": "0.1.0",
+  "description": "Finds the right skill among hundreds: indexes every installed skill, suggests the best match for each task, loads only that one.",
+  "author": {
+    "name": "Batu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "routing",
+    "search",
+    "context"
+  ],
+  "hooks": "./hooks/claude-codex-hooks.json",
+  "icon": "./assets/icon.png",
+  "homepage": "https://github.com/buyuksahinbatu/skill-selector",
+  "repository": "https://github.com/buyuksahinbatu/skill-selector"
+}

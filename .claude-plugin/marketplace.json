@@ -1,0 +1,15 @@
+{
+  "name": "skill-selector",
+  "owner": {
+    "name": "Batu"
+  },
+  "plugins": [
+    {
+      "name": "skill-selector",
+      "description": "Finds the right skill among hundreds: indexes every installed skill, suggests the best match for each task, loads only that one.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ],
+  "description": "Skill Selector: find and load the right skill among hundreds installed."
+}
